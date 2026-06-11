@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{21B4D01A-2900-4185-A262-89854C057CE6}|Exam\\Exam.csproj|solutionrelative:exam\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{21B4D01A-2900-4185-A262-89854C057CE6}|Exam\\Exam.csproj|c:\\users\\cff\\desktop\\finalexam\\exam\\exam\\areas\\admin\\views\\collection\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21B4D01A-2900-4185-A262-89854C057CE6}|Exam\\Exam.csproj|solutionrelative:exam\\areas\\admin\\views\\collection\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B4D01A-2900-4185-A262-89854C057CE6}|Exam\\Exam.csproj|c:\\users\\cff\\desktop\\finalexam\\exam\\exam\\areas\\admin\\views\\collection\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21B4D01A-2900-4185-A262-89854C057CE6}|Exam\\Exam.csproj|solutionrelative:exam\\areas\\admin\\views\\collection\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{21B4D01A-2900-4185-A262-89854C057CE6}|Exam\\Exam.csproj|c:\\users\\cff\\desktop\\finalexam\\exam\\exam\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{21B4D01A-2900-4185-A262-89854C057CE6}|Exam\\Exam.csproj|solutionrelative:exam\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -34,11 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cff\\Desktop\\FinalExam\\Exam\\Exam\\Areas\\Admin\\Views\\Collection\\Update.cshtml",
+              "RelativeDocumentMoniker": "Exam\\Areas\\Admin\\Views\\Collection\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Cff\\Desktop\\FinalExam\\Exam\\Exam\\Areas\\Admin\\Views\\Collection\\Update.cshtml",
+              "RelativeToolTip": "Exam\\Areas\\Admin\\Views\\Collection\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-11T08:20:38.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cff\\Desktop\\FinalExam\\Exam\\Exam\\Areas\\Admin\\Views\\Collection\\Details.cshtml",
+              "RelativeDocumentMoniker": "Exam\\Areas\\Admin\\Views\\Collection\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Cff\\Desktop\\FinalExam\\Exam\\Exam\\Areas\\Admin\\Views\\Collection\\Details.cshtml*",
+              "RelativeToolTip": "Exam\\Areas\\Admin\\Views\\Collection\\Details.cshtml*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-11T08:20:15.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Cff\\Desktop\\FinalExam\\Exam\\Exam\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Exam\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
@@ -50,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CollectionController.cs",
               "DocumentMoniker": "C:\\Users\\Cff\\Desktop\\FinalExam\\Exam\\Exam\\Areas\\Admin\\Controllers\\CollectionController.cs",
               "RelativeDocumentMoniker": "Exam\\Areas\\Admin\\Controllers\\CollectionController.cs",
@@ -62,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Cff\\Desktop\\FinalExam\\Exam\\Exam\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Exam\\Views\\Shared\\_Layout.cshtml",
@@ -74,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Cff\\Desktop\\FinalExam\\Exam\\Exam\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Exam\\Views\\Account\\Login.cshtml",
@@ -86,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Cff\\Desktop\\FinalExam\\Exam\\Exam\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Exam\\Views\\Account\\Register.cshtml",
@@ -104,7 +138,7 @@
               "RelativeDocumentMoniker": "Exam\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\Cff\\Desktop\\FinalExam\\Exam\\Exam\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Exam\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAUwDoAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAiwEYAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-11T07:14:26.355Z",
               "EditorCaption": ""

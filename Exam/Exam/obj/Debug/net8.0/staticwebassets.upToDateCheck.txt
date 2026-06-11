@@ -142,6 +142,7 @@ wwwroot\assets\images\discover-03.jpg
 wwwroot\assets\images\discover-04.jpg
 wwwroot\assets\images\discover-05.jpg
 wwwroot\assets\images\discover-06.jpg
+wwwroot\assets\images\fd8cd6a0-7580-416c-aa32-7311b1e32e35aztu.webp
 wwwroot\assets\images\featured-01.jpg
 wwwroot\assets\images\featured-02.jpg
 wwwroot\assets\images\featured-03.jpg
