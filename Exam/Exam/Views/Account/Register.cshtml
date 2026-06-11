@@ -1,0 +1,77 @@
+﻿@model RegisterVM
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="~/assets/register.css">
+</head>
+<body>
+
+    <div class="register-page">
+        <div class="register-card">
+            <div class="register-header">
+                <h1>Create Account</h1>
+                <p>Yeni hesab yarat</p>
+            </div>
+            <div asp-validation-summary="ModelOnly" style="color:red"></div>
+            <form class="register-form" method="post">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="Name">Ad</label>
+                        <input asp-for="Name" placeholder="Adını daxil et">
+                        <span asp-validation-for="Name" style="color:red"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Surname">Soyad</label>
+                        <input asp-for="Surname" placeholder="Soyadını daxil et">
+                        <span asp-validation-for="Surname" style="color:red"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input asp-for="Email" placeholder="Email ünvanını daxil et">
+                    <span asp-validation-for="Email" style="color:red"></span>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="Username">İstifadəçi adı</label>
+                    <input asp-for="Username" placeholder="İstifadəçi adını daxil et">
+                    <span asp-validation-for="Username" style="color:red"></span>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Şifrə</label>
+                    <input asp-for="Password" placeholder="Şifrə yarat">
+                    <span asp-validation-for="Password" style="color:red"></span>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="ConfirmPassword">Şifrəni təsdiqlə</label>
+                    <input asp-for="ConfirmPassword" placeholder="Şifrəni yenidən yaz">
+                    <span asp-validation-for="ConfirmPassword" style="color:red"></span>
+                </div>
+
+                <button type="submit" class="register-btn">Qeydiyyatdan keç</button>
+            </form>
+
+            <div class="register-footer">
+                <p>Artıq hesabın var?</p>
+                <a asp-action="Login">Daxil ol</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

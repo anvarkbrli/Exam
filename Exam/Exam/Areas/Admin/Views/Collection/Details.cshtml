@@ -1,0 +1,46 @@
+﻿@model DetailsVM
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Collection Table</h4>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>
+                                Image
+                            </th>
+                            <th>
+                                Name
+                            </th>
+                            <th>
+                                Stock
+                            </th>
+                            <th>
+                                Category
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-1">
+                                <img src="~/assets/images/@Model.Image" alt="image" style="width:120px;height:120px"/>
+                            </td>
+                            <td>
+                                @Model.Name
+                            </td>
+                            <td>
+                                @Model.Stock
+                            </td>
+                            <td>
+                                @Model.Category
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a class="btn btn-light" asp-action="Index">Back</a>
+            </div>
+        </div>
+    </div>
+</div>

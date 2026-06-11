@@ -1,0 +1,32 @@
+﻿@model CreateVM
+<div class="col-md-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Create Collection</h4>
+            <form class="forms-sample" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="Photo">Image</label>
+                    <input asp-for=Photo class="form-control">
+                    <span asp-validation-for="Photo" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label for="Name">Name</label>
+                    <input asp-for="Name"  class="form-control"  placeholder="Enter a name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label for="Stock">Stock</label>
+                    <input asp-for="Stock" class="form-control" placeholder="Enter available stock count">
+                    <span asp-validation-for="Stock" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label for="Category">Category</label>
+                    <input asp-for="Category" class="form-control" placeholder="Enter a category">
+                    <span asp-validation-for="Category" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-primary me-2">Submit</button>
+                <a class="btn btn-light" asp-action="Index">Cancel</a>
+            </form>
+        </div>
+    </div>
+</div>
